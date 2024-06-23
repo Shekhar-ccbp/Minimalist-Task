@@ -1,0 +1,269 @@
+.app-container {
+  width: 1440px;
+}
+
+.home-bg-container {
+  background-image: url('https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719063193/Frame_6_cauyz1.png');
+  width: 1440px;
+  height: 527px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1468px;
+  height: 71px;
+  left: -30px;
+  top: 0px;
+  background: rgba(28, 28, 28, 0.2);
+  border-bottom: 1px solid rgba(255, 119, 119, 0.4);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-self: center;
+}
+
+.header-logo {
+  position: absolute;
+  width: 116px;
+  height: 47.23px;
+  left: 120px;
+  top: 12px;
+}
+
+.home-description {
+  position: absolute;
+  width: 574px;
+  height: 112px;
+  left: 120px;
+  top: 206px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.home-quick-view-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 211px;
+  height: 52px;
+  left: 120px;
+  top: 401px;
+  background: #ffffff;
+  border: 0px;
+}
+
+.quick-span {
+  width: 89px;
+  height: 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #fe0000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-container {
+  width: Hug (7.97px) px;
+  left: 120px;
+}
+
+.about-frame {
+  width: Hug (7.97px) px;
+  height: Hug (472.31px) px;
+  top: 908.97px;
+  left: 120px;
+  padding: 2px 0px 0px 0px;
+  gap: 2px;
+  opacity: 0px;
+  angle: 90 deg;
+}
+
+.design-frame {
+  width: 117.1px;
+  height: 138.33px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.description-container {
+  width: 908px;
+  height: 139px;
+  top: 680px;
+  left: 266px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+.span-txt {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.about-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  width: 87px;
+  height: 44px;
+  top: 63px;
+  left: 13px;
+  color: #f27121;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.products-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  color: #f27121;
+}
+
+.description-div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: Hug (7.97px) px;
+  left: 120px;
+}
+
+.our-products-section {
+  width: 1440px;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-between;
+  width: Hug (7.97px) px;
+  left: 120px;
+  text-align: center;
+}
+
+.product-card-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 584px;
+  height: 530px;
+  left: 120px;
+  top: 963px;
+  border: 1px solid #cecece;
+}
+
+.product-card-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 584px;
+  height: 530px;
+  left: 736px;
+  top: 963px;
+  border: 1px solid #cecece;
+}
+
+.card-img {
+  position: absolute;
+  width: 560px;
+  height: 434px;
+  left: 12px;
+  top: 12px;
+  background: #f0f0f0;
+}
+
+.product-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 340px;
+  height: 28px;
+  left: 12px;
+  top: 478px;
+}
+
+.product-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-name {
+  width: 146px;
+  height: 28px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.quick-view-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 211px;
+  height: 52px;
+  left: 361px;
+  top: 466px;
+  background: #fe0000;
+  border: 0px;
+}
+
+.btn-txt {
+  width: 89px;
+  height: 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
