@@ -1,5 +1,7 @@
 import {useState} from 'react'
+import BannerSection from '../BannerSection'
 import ProductDetails from '../ProductDetails'
+import Footer from '../Footer'
 import './index.css'
 
 const Home = () => {
@@ -11,25 +13,9 @@ const Home = () => {
 
   return (
     <div className="app-container">
-      <div className="home-bg-container">
-        <div className="header">
-          <img
-            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719063198/Frame_phho6r.svg"
-            alt="nav-img"
-            className="header-logo"
-          />
-        </div>
-        <div>
-          <p className="home-description">
-            The choice is yours.
-            <br /> Because they don't have one.
-          </p>
-          <button className="home-quick-view-btn" type="button">
-            <span className="quick-span">Quick View</span>
-          </button>
-        </div>
-      </div>
+      <BannerSection />
 
+      {/* About Section */}
       <div className="about-container">
         <div className="flex-container">
           <img
@@ -73,17 +59,18 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Our Products Section */}
       <div className="our-products-section">
         <div className="flex-container">
           <img
             src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719064200/Frame_hfgssn.png"
-            alt="products-frame"
+            alt="about-frame"
             className="about-frame"
           />
-          <p className="products-heading">Our Products</p>
+          <p className="about-heading">Our Products</p>
           <img
             src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719064200/Frame_hfgssn.png"
-            alt="products-frame"
+            alt="about-frame"
             className="about-frame"
           />
         </div>
@@ -122,9 +109,18 @@ const Home = () => {
               </button>
             </div>
           </div>
+          {/* Conditionally displaying Pop-up component */}
           {showPopup && <ProductDetails closePopup={togglePopup} />}
         </div>
       </div>
+      <div className="large-frame">
+        <img
+          src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719140678/Frame_2_i3rtfh.png"
+          alt="long-frame"
+        />
+      </div>
+
+      <Footer />
     </div>
   )
 }

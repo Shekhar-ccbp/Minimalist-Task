@@ -1,0 +1,78 @@
+.home-bg-container {
+  background-image: url('https://res.cloudinary.com/dzt6qmhmq/image/upload/v1719063193/Frame_6_cauyz1.png');
+  width: 100vw;
+  background-size: cover;
+  height: 527px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 71px;
+  top: 0px;
+  background: rgba(28, 28, 28, 0.2);
+  border-bottom: 1px solid rgba(255, 119, 119, 0.4);
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  display: flex;
+  align-self: center;
+}
+
+.header-logo {
+  position: absolute;
+  width: 116px;
+  height: 47.23px;
+  left: 120px;
+  top: 12px;
+}
+
+.home-description {
+  position: absolute;
+  width: 574px;
+  height: 112px;
+  left: 120px;
+  top: 206px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.home-quick-view-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 211px;
+  height: 52px;
+  left: 120px;
+  top: 401px;
+  background: #ffffff;
+  border: 0px;
+}
+
+.quick-span {
+  width: 89px;
+  height: 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #fe0000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
